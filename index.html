@@ -1,30 +1,638 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Jaydatta Nagarkar</title>
-	<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:jaydatta.nagarkar@asu.edu">email</a></li>
-        		<li><a href="https://github.com/JNagarkar">github.com/JNagarkar</a></li>
-			</ul>
-		</footer>
-	</body>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Ceevee - Free Responsive HTML5/CSS3 Template</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
+</head>
+
+<body>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">It's Jaydatta Nagarkar.</h1>
+            <h3> <span>"Life begins at the end of your Comfort Zone"</span>. I am a Software Developer / Engineer and <span>CS Grad student at ASU</span> .
+             I build and break stuff. <a class="smoothscroll" href="#about">Start scrolling</a>
+            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://www.facebook.com/jaydatta.nagarkar"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://twitter.com/JayNagarkar1"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/jaynagarkar"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.instagram.com/jaynagarkar/"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="jay.nagarkar"><i class="fa fa-skype"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>
+              <ul>
+              <li>CS Graduate Student at <span>Arizona State University</span> open for new opportunities starting May 2017. </li>
+              <li>Interested in distributed & parallel databases, data mining, data visualization, statistical learning and web development ofcourse!.</li>
+
+              <li>Self-motivated and accomplished team player with strong understanding of Computer Science fundamentals.</li>
+              <li>Core competencies -> Java, Apache Spark, Hadoop, Python and experience with big-data & distributed technologies and Web development.</li>
+            </ul>
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Jaydatta Nagarkar</span><br>
+						   <span>1255, East University Drive<br>
+						         Tempe, AZ 85281 US
+                     </span><br>
+						   <span>(480)-465-2609</span><br>
+					   </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="https://drive.google.com/file/d/0B8s-mNAyjAv_Sm1hNjBsMThfNDg/view?usp=sharing" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Graduate Studies</span>
+
+            <img class="profile-pic"  src="images/asu.png" alt="" /></h1>
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>University of Life</h3>
+                  <p class="info">Master of Computer Science <span>&bull;</span> <em class="date">August 2015 - Current</em></p>
+
+                  <p>
+                    ASU has always been special for me !. My first ever international experience.
+
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+
+
+
+<!--
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>School of Cool Designers</h3>
+                  <p class="info">B.A. Degree in Graphic Design <span>&bull;</span> <em class="date">March 2003</em></p>
+
+                  <p>
+                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
+                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Bachelor's</span>
+
+            <img class="profile-pic"  src="images/vit.jpg" alt="" /></h1>
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Vishwakarma Institute of Technology, University of Pune</h3>
+                  <p class="info">Bachelor of Computer Science <span>&bull;</span> <em class="date">August 2010 - May 2014</em></p>
+
+                  <p>
+                    Bachelor's in Computer Science (Hon's in Networking)
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+                        <img class="profile-pic"  src="images/paypal.png" alt="" />
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>PayPal</h3>
+                  <p class="info">Software Engineering Intern <span>&bull;</span> <em class="date">Summer 2016</em></p>
+
+                  <p>
+                    Worked on interesting Data Engineering stuff.
+                    <span>Spark</span> <span> Hadoop </span> <span> Big data </span>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+<!--            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Super Cool Studio</h3>
+                  <p class="info">UX Designer <span>&bull;</span> <em class="date">March 2007 - February 2010</em></p>
+
+                  <p>
+                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
+                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <div class="row work">
+
+         <div class="three columns header-col">
+
+                        <img class="profile-pic"  src="images/cybage.jpg" alt="" />
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Cybage Software's Inc</h3>
+                  <p class="info">Software Engineering <span>&bull;</span> <em class="date">June 2014 - June 2015</em></p>
+
+                  <p>
+                    Start of Professional Career!
+                    Worked as part of CMS domain, Trained in LAMP Stack and CMS.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+<!--            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Super Cool Studio</h3>
+                  <p class="info">UX Designer <span>&bull;</span> <em class="date">March 2007 - February 2010</em></p>
+
+                  <p>
+                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
+                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <div class="row work">
+
+         <div class="three columns header-col">
+                        <img class="profile-pic"  src="images/agreeya.png" alt="" />
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Agreeya Mobility Pvt Ltd</h3>
+                  <p class="info">Project Trainee (Industry-sponsored Capstone Project)<span>&bull;</span> <em class="date">April 2014 - May-2015</em></p>
+
+                  <p>
+                    Worked on building a web-portal to assist Lawyer's and Clients.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+<!--            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Super Cool Studio</h3>
+                  <p class="info">UX Designer <span>&bull;</span> <em class="date">March 2007 - February 2010</em></p>
+
+                  <p>
+                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
+                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Technical Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p>Strong hand in Java and Algorithms, Deep understanding of distributed systems and big data world !
+              Strong fundamentals in Machine learning and Data Mining.
+              Currently exploring Android Development.
+            </p>
+
+				<div class="bars">
+
+				   <ul class="skills">
+							<li><span class="bar-expand css"></span><em>Java ,J2EE Frameworks</em></li>
+						       <li><span class="bar-expand html5"></span><em>Parallel Computing Architecture</em></li>
+						<li><span class="bar-expand css"></span><em>Machine learning</em></li>
+					       <li><span class="bar-expand html5"></span><em>SDLC and Agile</em></li>
+<li><span class="bar-expand wordpress"></span><em>Android development</em></li>
+					</ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of My Works.</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/deep.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Auto-encoder</h5>
+                              <p>Github</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/m2.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Recommendation System</h5>
+                              <p>Web Development</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/portfolio/spark.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Distributed Computing</h5>
+                              <p>Big data</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/portfolio/comingsoon.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Android development</h5>
+                              <p>Application</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m1.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Auto-encoder</h4>
+			      <p>Designed a Deep learning based auto-encoder with Configurable number of hidden layers</p>
+               <span class="categories"><i class="fa fa-tag"></i>Machine learning, Deep Learning</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.github.com/JNagarkar/Autoencoder">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m2.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Recommendation System for Patients</h4>
+			      <p> A personalized recommendation system to drive you to insights from Web-md experts</p>
+               <span class="categories"><i class="fa fa-tag"></i>Recommendation Systems, Web Development</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://104.154.150.69/">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m3.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Geo-spatial Operations using Apache Spark</h4>
+			      <p>Performed and created Library for 6 Geo-spatial operations using Spark. This is just a illustration !</p>
+               <span class="categories"><i class="fa fa-tag"></i>Big Data, Apache Spark, HDFS</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/JNagarkar/GeoSpatial-Operations-Apache-Spark">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m4.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Buzz App</h4>
+			      <p>Currently building a buzz app to Buzz people in your surroundings</p>
+               <span class="categories"><i class="fa fa-tag"></i>Android</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="#">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+
+         <div id="modal-08" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Retrocam</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+
+
+
+   <!-- Contact Section
+   ================================================== -->
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="#"><i class="fa fa-skype"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2014 CeeVee</li>
+               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
+</body>
+
 </html>
