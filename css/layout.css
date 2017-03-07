@@ -30,7 +30,7 @@ body { background: #0f0f0f; }
 
 header {
    position: relative;
-   height: 900px;
+   height: 800px;
    min-height: 500px;
    width: 100%;
    background: #161415 url(../images/photo.jpg) no-repeat top center;
@@ -39,7 +39,6 @@ header {
    text-align: center;
    overflow: hidden;
 }
-
 /* vertically center banner section */
 header:before {
    content: '';
